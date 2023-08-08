@@ -1,0 +1,30 @@
+body {
+    width:960px;
+    margin:  auto;
+    background-color: #eb7;
+}
+
+.form {
+    margin-top: 20px;
+    padding-top: 10px;
+    
+}
+
+label, input:not([type="radio"], [type="checkbox"]){
+    font-weight: bold;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 16px;
+}
+textarea {
+    display: block;
+    resize: vertical;
+    width: 100%;
+}
+
+button {
+    padding: 16px 32px;
+    margin:20px 0px;
+    font-weight: bold;
+    border: 1px solid #000;
+}
